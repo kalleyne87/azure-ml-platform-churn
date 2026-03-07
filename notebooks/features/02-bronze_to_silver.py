@@ -1,4 +1,5 @@
 import io
+import re
 import pandas as pd
 from datetime import datetime
 
@@ -27,25 +28,30 @@ def main():
 
     df = pd.read_csv(io.BytesIO(csv_bytes))
 
-    # Normalize columns name
-    df.columns = [c.strip().replace(" ", "_").replace("-", "_").lower() for c in df.columns]
+    # Normalize column names - convert camelCase to snake_case
+    def normalize_column(col: str) -> str:
+        col = col.strip()
+        col = re.sub(r'(?<=[a-z])(?=[A-Z])', '_', col)
+        col = col.replace(" ", "_").replace("-", "_")
+        return col.lower()
+
+    df.columns = [normalize_column(c) for c in df.columns]
 
     # Normalize churn column
     if "churn" in df.columns:
         df["churn"] = df["churn"].astype(str).str.strip().str.lower()
         df["churn_flag"] = (df["churn"] == "yes").astype(int)
-    
-    # Clean TotalCharges column
-    if "totalcharges" in df.columns:
-        df["totalcharges"] = pd.to_numeric(df["totalcharges"], errors="coerce")
-        df["totalcharges"] = df["totalcharges"].fillna(0)
-    
-    # Clean SeniorCitizen column
-    if "seniorcitizen" in df.columns:
-        df["seniorcitizen"] = pd.to_numeric(df["seniorcitizen"], errors="coerce").fillna(0).astype(int)
 
-    # Drop any duplicates
-    df = df.drop_duplicates()
+    # Clean total_charges column
+    if "total_charges" in df.columns:
+        df["total_charges"] = pd.to_numeric(df["total_charges"], errors="coerce")
+        df["total_charges"] = df["total_charges"].fillna(0)
+
+    # Clean senior_citizen column
+    if "senior_citizen" in df.columns:
+        df["senior_citizen"] = pd.to_numeric(df["senior_citizen"], errors="coerce").fillna(0).astype(int)
+        # Drop any duplicates
+        df = df.drop_duplicates()
 
     print("Successfully cleaned and transformed data.")
 
