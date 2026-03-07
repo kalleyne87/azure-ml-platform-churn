@@ -93,6 +93,7 @@ def main():
     except Exception:
         pass # Directory likely already exists
 
+    gold_df.to_parquet("gold_churn.parquet", index=False)
     gold_file_client = file_system_client.get_file_client(GOLD_FILE)
     gold_file_client.upload_data(out, overwrite=True)
 
