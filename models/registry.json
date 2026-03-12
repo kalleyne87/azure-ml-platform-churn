@@ -1,0 +1,9 @@
+{
+  "models": [
+    {
+      "model_path": "models/churn_model_20260311_2031.pkl",
+      "auc": 0.8416104781833683,
+      "timestamp": "20260311_2031"
+    }
+  ]
+}
