@@ -1,0 +1,47 @@
+feature,coefficient,impact,abs_coefficient
+internet_service_Fiber optic,0.9957114859473015,increases_churn,0.9957114859473015
+contract_Month-to-month,0.7754666369779126,increases_churn,0.7754666369779126
+internet_service_DSL,-0.6900049871619531,decreases_churn,0.6900049871619531
+contract_Two year,-0.6511605596998853,decreases_churn,0.6511605596998853
+online_security_No,0.44645662684301196,increases_churn,0.44645662684301196
+tech_support_No,0.4134242879706335,increases_churn,0.4134242879706335
+num_services,0.3457741729764832,increases_churn,0.3457741729764832
+payment_method_Electronic check,0.3305247084868653,increases_churn,0.3305247084868653
+multiple_lines_Yes,0.3189573418460896,increases_churn,0.3189573418460896
+online_backup_No,0.3150839952385008,increases_churn,0.3150839952385008
+streaming_movies_Yes,0.2846502598191284,increases_churn,0.2846502598191284
+streaming_tv_Yes,0.2718765422763095,increases_churn,0.2718765422763095
+device_protection_No,0.25861371341798284,increases_churn,0.25861371341798284
+paperless_billing_Yes,0.25229446943804607,increases_churn,0.25229446943804607
+phone_service_Yes,0.2172814523298437,increases_churn,0.2172814523298437
+dependents_No,0.19929659799687308,increases_churn,0.19929659799687308
+senior_citizen,0.15390239996854607,increases_churn,0.15390239996854607
+online_security_Yes,-0.14075012853344349,decreases_churn,0.14075012853344349
+device_protection_No internet service,-0.1357177763702629,decreases_churn,0.1357177763702629
+tech_support_No internet service,-0.1357177763702629,decreases_churn,0.1357177763702629
+streaming_movies_No internet service,-0.1357177763702629,decreases_churn,0.1357177763702629
+streaming_tv_No internet service,-0.1357177763702629,decreases_churn,0.1357177763702629
+online_backup_No internet service,-0.1357177763702629,decreases_churn,0.1357177763702629
+online_security_No internet service,-0.1357177763702629,decreases_churn,0.1357177763702629
+internet_service_No,-0.1357177763702629,decreases_churn,0.1357177763702629
+tech_support_Yes,-0.1077177894377865,decreases_churn,0.1077177894377865
+multiple_lines_No,-0.10167588961889708,decreases_churn,0.10167588961889708
+gender_Male,0.10061498754773439,increases_churn,0.10061498754773439
+partner_Yes,0.09345771669669245,increases_churn,0.09345771669669245
+paperless_billing_No,-0.08230574720216362,decreases_churn,0.08230574720216362
+partner_No,0.0765310056359401,increases_churn,0.0765310056359401
+payment_method_Bank transfer (automatic),-0.07033576389916843,decreases_churn,0.07033576389916843
+gender_Female,0.06937373473188567,increases_churn,0.06937373473188567
+payment_method_Credit card (automatic),-0.0681419025239167,decreases_churn,0.0681419025239167
+tenure,-0.04827084772776745,decreases_churn,0.04827084772776745
+multiple_lines_No phone service,-0.047292730367712095,decreases_churn,0.047292730367712095
+phone_service_No,-0.047292730367712095,decreases_churn,0.047292730367712095
+device_protection_Yes,0.047092785180123234,increases_churn,0.047092785180123234
+contract_One year,0.045682645198069596,increases_churn,0.045682645198069596
+monthly_charges,-0.03710264042155192,decreases_churn,0.03710264042155192
+streaming_tv_No,0.033829956352571876,increases_churn,0.033829956352571876
+dependents_Yes,-0.029307875583367064,decreases_churn,0.029307875583367064
+payment_method_Mailed check,-0.022058319529541626,decreases_churn,0.022058319529541626
+streaming_movies_No,0.02105623875147386,increases_churn,0.02105623875147386
+online_backup_Yes,-0.009377496794636626,decreases_churn,0.009377496794636626
+total_charges,0.00022873952895965854,increases_churn,0.00022873952895965854

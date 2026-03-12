@@ -1,0 +1,25 @@
+CHURN RISH REPORT
+==================================================
+Total customers scored: 7043
+Average churn probability: 41.41%
+Predicted churn customers: 3453
+Estimated monthly revenue at high risk: $143,389.95
+
+Risk Band Breakdown:
+--------------------------------------------------
+High risk customers: 1786
+Medium risk customers: 1667
+Low risk customers: 3590
+
+Top 10 Highest-Risk Customers
+--------------------------------------------------
+9497-QCMMS | prob=93.97% | prediction=0.9397304603444935 | risk=high
+9300-AGZNL | prob=93.88% | prediction=0.9387837803236126 | risk=high
+4424-TKOPW | prob=93.77% | prediction=0.9376708951382354 | risk=high
+5178-LMXOP | prob=93.74% | prediction=0.9374113607643639 | risk=high
+2720-WGKHP | prob=93.71% | prediction=0.937142354020043 | risk=high
+7024-OHCCK | prob=93.55% | prediction=0.9354631232898958 | risk=high
+5567-WSELE | prob=93.53% | prediction=0.9352777832472996 | risk=high
+5150-ITWWB | prob=93.45% | prediction=0.9344651239728388 | risk=high
+1374-DMZUI | prob=93.20% | prediction=0.9320475346344765 | risk=high
+7216-EWTRS | prob=93.08% | prediction=0.9308209702414598 | risk=high
