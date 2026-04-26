@@ -12,6 +12,7 @@ Bronze -> Silver -> Gold -> Train -> Score -> Reports
 ## How to Run
 bash
 git clone https://github.com/kalleyne87/azure-ml-platform-churn.git
+
 cd azure-ml-platform-churn
 
 pip install -r requirements.txt
