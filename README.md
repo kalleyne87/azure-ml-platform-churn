@@ -19,7 +19,7 @@ Bronze -> Silver -> Gold -> Train -> Score -> Reports
 Helps teams identify at-risk customers before revenue is lost.
 
 ## Screenshots
-(add images)
+<img width="1866" height="985" alt="Screenshot 2026-04-26 at 12 04 01 PM" src="https://github.com/user-attachments/assets/89a25e83-10b8-40a0-afbb-dd3079ae3e58" />
 
 ## Future Improvements
 - Deploy API
