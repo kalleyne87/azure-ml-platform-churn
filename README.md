@@ -9,19 +9,6 @@ Python, Pandas, scikit-learn, Parquet, Azure-ready architecture, GitHub
 ## Pipeline Stages
 Bronze -> Silver -> Gold -> Train -> Score -> Reports
 
-## How to Run
-
-```bash
-git clone https://github.com/kalleyne87/azure-ml-platform-churn.git
-cd azure-ml-platform-churn
-
-pip install -r requirements.txt
-
-python train/03_train_churn_model.py
-python score/04_score_churn.py
-python score/05_churn_report.py
-python score/06_feature_importance_report.py
-
 ## Key Outputs
 - Churn probability by customer
 - Risk bands
@@ -39,3 +26,17 @@ Helps teams identify at-risk customers before revenue is lost.
 - Deploy API
 - Automated retraining
 - Monitoring
+
+## How to Run
+
+```bash
+git clone https://github.com/kalleyne87/azure-ml-platform-churn.git
+cd azure-ml-platform-churn
+
+pip install -r requirements.txt
+
+python train/03_train_churn_model.py
+python score/04_score_churn.py
+python score/05_churn_report.py
+python score/06_feature_importance_report.py
+
