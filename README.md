@@ -10,20 +10,16 @@ Python, Pandas, scikit-learn, Parquet, Azure-ready architecture, GitHub
 Bronze -> Silver -> Gold -> Train -> Score -> Reports
 
 ## How to Run
-bash
 
+```bash
 git clone https://github.com/kalleyne87/azure-ml-platform-churn.git
-
 cd azure-ml-platform-churn
 
 pip install -r requirements.txt
 
 python train/03_train_churn_model.py
-
 python score/04_score_churn.py
-
 python score/05_churn_report.py
-
 python score/06_feature_importance_report.py
 
 ## Key Outputs
